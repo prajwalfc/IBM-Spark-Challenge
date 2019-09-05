@@ -188,5 +188,4 @@ build
 .DS_Store
 *.pem
 data
-output
 
