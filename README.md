@@ -21,7 +21,10 @@ Non-zero values are the frequency rankings (1=most frequent). Zero values mean t
 ## Future Todos
 - Tune the number to best select the word out of possible combination
 - Use NLP to select best word in context of the sentence.(Right now the contextual sentence is ignored)
+- Improve output format
+- Work on to make production level and modular jobs
 
 ## Running the application
-- git clone 
+- git clone https://github.com/prajwalfc/IBM-Spark-Challenge.git
 - python run_script.py
+
