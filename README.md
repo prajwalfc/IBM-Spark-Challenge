@@ -19,7 +19,13 @@ Non-zero values are the frequency rankings (1=most frequent). Zero values mean t
 ![alt text](images/puzzle1.jpg)
 
 ## Future Todos
+- Chossing the only words that results in most appropriate words in final fillup puzzle(i.e go back and remove redundant words)   right now all possible words from the dictionary are included. 
 - Tune the number to best select the word out of possible combination
 - Use NLP to select best word in context of the sentence.(Right now the contextual sentence is ignored)
+- Improve output format
+- Work on to make production level and modular jobs
 
 ## Running the application
+- git clone https://github.com/prajwalfc/IBM-Spark-Challenge.git
+- python run_script.py
+
