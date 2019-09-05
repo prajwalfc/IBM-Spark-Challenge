@@ -1,0 +1,5 @@
+knidy 0,1
+legia 0,2
+cronee 1,3
+tuvedo 0,5
+8

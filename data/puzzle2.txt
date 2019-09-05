@@ -1,0 +1,5 @@
+bnedl 0,4
+idova 0,3,4
+seheyc 1,5
+aracem 1,4,5
+3,4,3

@@ -1,0 +1,5 @@
+nagld 1,3,4
+ramoj 2,3
+camble 0,1,3
+wraley 0,2,4
+3,4,4
