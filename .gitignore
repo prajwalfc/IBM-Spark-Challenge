@@ -186,6 +186,5 @@ build
 
 # files osx plops down sometimes
 .DS_Store
-*.pem
-data
+*.pem	
 
