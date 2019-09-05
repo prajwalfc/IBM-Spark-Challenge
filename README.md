@@ -23,3 +23,5 @@ Non-zero values are the frequency rankings (1=most frequent). Zero values mean t
 - Use NLP to select best word in context of the sentence.(Right now the contextual sentence is ignored)
 
 ## Running the application
+- git clone 
+- python run_script.py
