@@ -7,3 +7,10 @@
 ## Included
 Also included:freq_dict - keys are English Dictionary words to be used in your solving of the jumbles. 
 Non-zero values are the frequency rankings (1=most frequent). Zero values mean that the word is too infrequent to be ranked. 
+
+## Environment
+-Linux
+## Installing Spark (unix and linux)
+- Step 1 : [Install Anaconda](https://www.anaconda.com/distribution/#download-section)
+- Step 2: conda install pyspark
+- run pyspark command in terminal, that should load pyspark shell.
