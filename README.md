@@ -28,4 +28,4 @@ Non-zero values are the frequency rankings (1=most frequent). Zero values mean t
 ## Running the application
 - git clone https://github.com/prajwalfc/IBM-Spark-Challenge.git
 - python run_script.py
-
+- remove the output file inside output folder.
