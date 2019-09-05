@@ -1,0 +1,5 @@
+('puzzle5', (['trying', 'trigyn', 'tyring', 'divert', 'seaman', 'deceit', 'shadow'], ['events', 'dentists']))
+('puzzle3', (['stash', 'rodeo', 'rooed', 'indict', 'italic', 'clitia'], ['each', 'decision']))
+('puzzle4', (['dinky', 'agiel', 'galei', 'agile', 'encore', 'devout'], ['addition']))
+('puzzle1', (['gland', 'joram', 'major', 'jarmo', 'becalm', 'warely', 'lawyer', 'yawler'], ['and', 'well', 'read']))
+('puzzle2', (['blend', 'avoid', 'cheesy', 'sychee', 'camera', 'acream', 'mareca'], ['had', 'acid', 'day']))

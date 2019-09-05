@@ -92,7 +92,8 @@ def assignWeight(puzzleIdWordLists):
             if (not word in finalWordCombo) and word_rank_dict[word]< wordRank:
                 tempWord = word
                 wordRank = word_rank_dict[word]
-        finalWordCombo.append((tempWord))
+        if tempWord:
+            finalWordCombo.append((tempWord))
     totalWeight = sum(word_rank_dict[i] for i in finalWordCombo)
     return(puzzleId,[[totalWeight,finalWordCombo]])
             
@@ -116,8 +117,8 @@ def selectMaxWeightedCombo(puzzleIdWeightAndWords):
 
 if __name__=="__main__":
     sc = SparkContext()
-    sourcePath = "../data/*"
-    wordDictPath = "../resources/freq_dict.json"
+    sourcePath = "data/*"
+    wordDictPath = "resources/freq_dict.json"
     scrambledRdd = sc.wholeTextFiles(sourcePath)
     import json
     word_rank_dict = {}
@@ -151,4 +152,4 @@ if __name__=="__main__":
     puzzledFinalLettersRddForJoin = puzzledFinalLettersRdd.reduceByKey(lambda x,y:x+y).map(selectMaxWeightedCombo)
     ## save as textFile in the output directory
     
-    unscrambledForFinalJoinRdd.join(puzzledFinalLettersRddForJoin).saveAsTextFile("../output/abc")
+    unscrambledForFinalJoinRdd.join(puzzledFinalLettersRddForJoin).saveAsTextFile("output/temp")
