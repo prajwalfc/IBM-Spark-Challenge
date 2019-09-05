@@ -14,3 +14,6 @@ Non-zero values are the frequency rankings (1=most frequent). Zero values mean t
 - Step 1 : [Install Anaconda](https://www.anaconda.com/distribution/#download-section)
 - Step 2: conda install pyspark
 - run pyspark command in terminal, that should load pyspark shell.
+
+# Sample Input Picture
+![alt text](images/puzzle1.jpg)
